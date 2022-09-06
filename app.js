@@ -7,7 +7,7 @@ window.onload = function () {
   var closeBtn = document.getElementById("close");
 
   // Cria um novo socket.
-  var socket = new WebSocket("ws://echo.websocket.org/");
+  var socket = new WebSocket("ws://localhost:9898/");
 
   // Função para tratar os erros que podem ocorrer
   socket.onerror = function (error) {
